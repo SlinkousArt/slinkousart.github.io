@@ -5,4 +5,6 @@
 
 [Instagram](https://www.instagram.com/slinkousart)
 
+[Linktree](https://www.linktr.ee/slinkousart)
+
 OwO
