@@ -58,7 +58,7 @@ header h1 {
 
 .btn {
   border-radius: 0;
-  border: none;
+  border: 1px solid var(--pink2);
   background: var(--pink2);
   color: var(--black);
   font-family: "Source Code Pro", Consolas, Terminal, "Lucida Console", monospace;
@@ -69,4 +69,5 @@ header h1 {
 .btn:hover {
   border: 1px solid var(--pink2);
   background: var(--black0);
+  color: var(--pink2);
 }
