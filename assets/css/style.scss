@@ -52,3 +52,16 @@ header h1 {
   text-align: center;
   font-family: "Source Code Pro", Consolas, Terminal, "Lucida Console", monospace;
   }
+
+
+
+
+.btn {
+  border-radius: 0;
+  border: none;
+  background: var(--pink2);
+  color: var(--black);
+  font-family: "Source Code Pro", Consolas, Terminal, "Lucida Console", monospace;
+  text-shadow: none;
+  box-shadow: none;
+}
