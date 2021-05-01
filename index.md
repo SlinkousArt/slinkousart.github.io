@@ -1,3 +1,7 @@
+---
+title: Home
+---
+
 # WIP
 Currently in development, will be finished maybe eventually
 
