@@ -1,4 +1,5 @@
-# Currently in development
+# WIP
+Currently in development, will be finished maybe eventually
 
 ## Links I guess
 [Redbubble (shop)](https://www.redbubble.com/people/spencerlinkous)
