@@ -1,6 +1,6 @@
 ---
 title: test page
-layout: default.html
+layout: default
 filename: testpage.md
 ---
 
