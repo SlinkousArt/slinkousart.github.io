@@ -60,8 +60,6 @@ header h1:before {
   content: none;
 }
 
-
-
 .btn {
   border-radius: 0;
   border: 1px solid var(--pink2);
@@ -76,4 +74,16 @@ header h1:before {
   border: 1px solid var(--pink2);
   background: var(--black0);
   color: var(--pink2);
+}
+
+a, a:hover, a:visited {
+  text-shadow: none;
+}
+
+a, a:hover {
+  color: var(--blue);
+}
+
+a:visited {
+  color: var(--pink);
 }
