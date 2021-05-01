@@ -2,6 +2,35 @@
 ---
 
 @import "{{ site.theme }}";
-header {
-  background: #222;
+
+/*variables*/
+
+/**
+:root {
+  --red: 
+  --bright-red
+  --green
+  --bright-green
+  --yellow
+  --bright-yellow
+  --blue
+  --bright-blue
+  --magenta
+  --bright-magenta
+  --cyan
+  --bright-cyan
+  --white
+  --bright-white
 }
+**/
+:root {
+  --black: #111;
+  --bright-black: #222;
+}
+
+
+header {
+  background: var(--black);
+  border-bottom: 1px solid red;
+}
+
