@@ -1,6 +1,7 @@
 # Currently in development
 
 ## Links I guess
-[Link](www.linktr.ee/slinkousart)
+[Redbubble (shop)](https://www.redbubble.com/people/spencerlinkous)
+[Instagram](https://www.instagram.com/slinkousart)
 
 OwO
