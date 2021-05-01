@@ -24,15 +24,17 @@
 }
 **/
 :root {
-  --black: #3B4252;
-  --black2: #3B4252;
+  --black: #282E3A;
+  --black0: #2E3440;
+  --black1: #3B4252;
+  --black2: #4C566A;
   --pink: #B48EAD;
   --pink2: #C394B4;
 }
 
 
 header {
-  background: var(--black);
+  background: var(--black1);
   border-bottom: 1px solid var(--pink);
 }
 
