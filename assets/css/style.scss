@@ -70,6 +70,10 @@ header h1:before {
   box-shadow: none;
 }
 
+.btn a, .btn a:visited {
+  color: var(--black);
+}
+
 .btn:hover {
   border: 1px solid var(--pink2);
   background: var(--black0);
