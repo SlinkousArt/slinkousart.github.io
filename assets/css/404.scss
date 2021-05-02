@@ -54,6 +54,7 @@ header h1 {
   text-shadow: none;
   text-align: center;
   font-weight: Light;
+  font-family: "Source Code Pro", Consolas, Terminal, "Lucida Console", monospace;
 }
 
 header h1:before {
@@ -94,5 +95,4 @@ a:visited {
 h1, h2, h3, h4, h5 {
   color: var(--white);
   text-shadow: none;
-  font-family: "Source Code Pro", Consolas, Terminal, "Lucida Console", monospace;
 }
