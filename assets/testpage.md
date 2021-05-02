@@ -1,7 +1,6 @@
 ---
-title: test page
+title: idk
 layout: default
-filename: testpage.md
 ---
 
 # test page
