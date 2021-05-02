@@ -59,6 +59,9 @@ header h1 {
 header h1:before {
   content: none;
 }
+header h1:after {
+  content: none;
+}
 
 .btn {
   border-radius: 0;
