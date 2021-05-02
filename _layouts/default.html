@@ -26,9 +26,7 @@
           <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
         </section> -->
         <section id="pages">
-          {% for page in site.pages %}
-            <a href={{ page.filename }} class="btn btn-pages">{{ page.title }}</a>
-          {% endfor %}
+            <a href={{ index.md }}>{{ page.title }}</a>
         </section>
 
       </div>
