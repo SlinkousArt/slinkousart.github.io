@@ -1,6 +1,6 @@
 ---
 title: art
-layout: default.html
+layout: default
 ---
 
 # Art
