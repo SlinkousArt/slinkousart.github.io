@@ -3,7 +3,7 @@ title: Art
 layout: gallery
 ---
 
-# Art gallery
+# Gallery
 
 Here's an art gallery that exists.
 
