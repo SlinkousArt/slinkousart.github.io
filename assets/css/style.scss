@@ -33,9 +33,11 @@
 
   --pink: #B48EAD;
   --pink2: #C394B4;
-  
+
+  --white0: #D8DEE9;
   --white: #E5E9F0;
   --white2: #ECEFF4;
+
 }
 
 body {
@@ -99,4 +101,11 @@ a:visited {
 h1, h2, h3, h4, h5 {
   color: var(--white);
   text-shadow: none;
+}
+
+@media (prefers-color-sheme: light) {
+  .body {
+    background: var(--white0);
+    color: var(--black0);
+  }
 }
