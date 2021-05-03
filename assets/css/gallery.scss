@@ -139,7 +139,7 @@ h1, h2, h3, h4, h5 {
   filter: brightness(90%);
 
 }
-
+/**
 .modal-img,.model-vid{
 margin: 0;
 padding: 0;
@@ -160,6 +160,14 @@ height: 100%;
 }
 .modal-content {
 border: none;
+}
+**/
+@media screen and (min-width: 1000px) {
+  .gallery {
+    -webkit-column-count: 5;
+    -moz-column-count: 5;
+    column-count: 5;
+  }
 }
 @media screen and (max-width: 767px) {
 .gallery { 
