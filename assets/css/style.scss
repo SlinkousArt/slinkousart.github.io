@@ -103,7 +103,7 @@ h1, h2, h3, h4, h5 {
   text-shadow: none;
 }
 
-@media (prefers-color-scheme: light) {
+/**@media (prefers-color-scheme: light) {
   body {
     background: var(--white0);
     color: var(--black0);
@@ -111,4 +111,4 @@ h1, h2, h3, h4, h5 {
   h1, h2, h3, h4, h5 {
     color: var(--black0);
   }
-}
+}**/
