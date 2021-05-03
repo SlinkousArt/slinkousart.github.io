@@ -7,4 +7,4 @@ layout: gallery
 
 Here's an art gallery that exists.
 
-Also how did you know to go here?
+More will be added soon, like more specific image pages, etc. :)
