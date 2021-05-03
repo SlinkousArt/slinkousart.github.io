@@ -1,7 +1,10 @@
 ---
-title: art
-layout: default
+title: Art
+layout: gallery
 ---
 
-# Art
-Here's an art gallery except it doesn't exist yet
+# Gallery
+
+Here's an art gallery that exists.
+
+More will be added soon, like more specific image pages, etc. :)
