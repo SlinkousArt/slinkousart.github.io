@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ '/assets/css/gallery.css?v=' | append: site.github.build_revision | relative_url }}">
+
+{% seo %}
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <a id="a-title" href="{{ '/' | relative_url }}">
+          <h1>{{ site.title | default: site.github.repository_name }}</h1>
+        </a>
+        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+
+<!--        <section id="downloads">
+          {% if site.show_downloads %}
+            <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
+            <a href="{{ site.github.tar_url }}" class="btn">Download as .tar.gz</a>
+          {% endif %}
+          <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section> -->
+        <section id="pages">
+            <a href="/" class="btn">Home</a>
+            <a href="art" class="btn">Art</a>
+            <a href="https://www.redbubble.com/people/spencerlinkous" class="btn">Shop</a>
+        </section>
+
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        {{ content }}
+      </section>
+
+      <div class="gallery">
+        <img src="https://images.pexels.com/photos/2559175/pexels-photo-2559175.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="single-image" />
+        <img src="https://images.pexels.com/photos/3133685/pexels-photo-3133685.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="single-image" /> 
+        <img src="https://images.pexels.com/photos/3099358/pexels-photo-3099358.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="single-image" />
+        <img src="https://images.pexels.com/photos/2977304/pexels-photo-2977304.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="single-image" />
+        <img src="https://images.pexels.com/photos/3082313/pexels-photo-3082313.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="single-image" />
+        <img src="https://images.pexels.com/photos/3115006/pexels-photo-3115006.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="single-image" />
+        <img src="https://images.pexels.com/photos/2859169/pexels-photo-2859169.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="single-image" />
+        <img src="https://images.pexels.com/photos/3031075/pexels-photo-3031075.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="single-image" />
+        <img src="https://images.pexels.com/photos/2832039/pexels-photo-2832039.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="single-image" />
+        <img src="https://images.pexels.com/photos/2868223/pexels-photo-2868223.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="single-image" />
+        <img src="https://images.pexels.com/photos/2705755/pexels-photo-2705755.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="single-image" />
+        <img src="https://images.pexels.com/photos/2157166/pexels-photo-2157166.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="single-image" />
+      </div>
+    </div>
+
+    <div id="myModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {% if site.google_analytics %}
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', '{{ site.google_analytics }}', 'auto');
+        ga('send', 'pageview');
+      </script>
+    {% endif %}
+  </body>
+</html>
