@@ -1,0 +1,102 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/*variables*/
+
+/**
+:root {
+  --red: 
+  --bright-red
+  --green
+  --bright-green
+  --yellow
+  --bright-yellow
+  --blue
+  --bright-blue
+  --magenta
+  --bright-magenta
+  --cyan
+  --bright-cyan
+  --white
+  --bright-white
+}
+**/
+:root {
+  --black: #282E3A;
+  --black0: #2E3440;
+  --black1: #3B4252;
+  --black2: #4C566A;
+  
+  --blue: #81A1C1;
+
+  --pink: #B48EAD;
+  --pink2: #C394B4;
+  
+  --white: #E5E9F0;
+  --white2: #ECEFF4;
+}
+
+body {
+  color: var(--white);
+  background: var(--black0);
+}
+
+
+header {
+  background: var(--black1);
+  border-bottom: 1px solid var(--pink);
+}
+
+header h1 {
+  color: var(--white2);
+  text-shadow: none;
+  text-align: center;
+  font-family: "Source Code Pro", Consolas, Terminal, "Lucida Console", monospace;
+  font-weight: Light;
+  margin-left: 0;
+}
+
+header h1:before {
+  content: none;
+}
+header h1:after {
+  content: none;
+}
+
+.btn {
+  border-radius: 0;
+  border: 1px solid var(--pink2);
+  background: var(--pink2);
+  color: var(--black);
+  font-family: "Source Code Pro", Consolas, Terminal, "Lucida Console", monospace;
+  text-shadow: none;
+  box-shadow: none;
+}
+
+.btn:visited {
+  color: var(--black);
+}
+.btn:hover {
+  border: 1px solid var(--pink2);
+  background: var(--black0);
+  color: var(--pink2);
+}
+
+a, a:hover, a:visited {
+  text-shadow: none;
+}
+
+a, a:hover {
+  color: var(--blue);
+}
+
+a:visited {
+  color: var(--pink);
+}
+
+h1, h2, h3, h4, h5 {
+  color: var(--white);
+  text-shadow: none;
+}

@@ -1,6 +1,6 @@
 ---
 title: Art
-layout: default
+layout: gallery
 ---
 
 # Art gallery
