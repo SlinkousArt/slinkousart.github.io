@@ -7,18 +7,11 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/egg.js/1.0/egg.min.js">
-      var egg = new Egg();
-      egg
-        .addCode("up,up,down,down,left,right,left,right,b,a", function() {
-          jQuery('#egggif').fadeIn(500, function() {
-            window.setTimeout(function() { jQuery('#egggif').hide(); }, 5000);
-          }, "konami-code");
-        })
-        .addHook(function(){
-          console.log("Hook called for: " + this.activeEgg.keys);
-          console.log(this.activeEgg.metadata);
-        })
-        .listen();
+      var egg = new Egg("up,up,down,down,left,right,left,right,b,a", function() {
+        jQuery('#egggif').fadeIn(500, function() {
+          window.setTimeout(function() { jQuery('#egggif').hide(); }, 5000);
+        });
+      }).listen();
     </script>
 
 {% seo %}
