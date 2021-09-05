@@ -68,3 +68,7 @@ h1 {
     color: black;
     font-family: var(--mainfont);
 }
+
+#search input:focus {
+    outline: none;
+}
