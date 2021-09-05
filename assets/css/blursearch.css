@@ -1,7 +1,7 @@
 :root {
     --dark: #282828;
-    --darkest: #1d2021;
-    --light: #ebdbb2;
+    --darkest: #1d1d1d;
+    --light: #e9e9e9;
 
     --mainfont: Hack, Menlo, monospace;
     --mainweight: 100;
@@ -15,29 +15,36 @@
 }
 
 html {
-    background-color: var(--dark);
+    background-image: linear-gradient(to top, black 0%, black 50%, white 50%, white 100%);
     color: var(--light);
     height: 100%;
 }
 
 body {
+    display: grid;
     justify-content: center;
     align-items: center;
     margin: 0;
-    height: 100%;
+    height: 100vh;
 }
 
 .centerthing {
-    width: 42%;
+    width: 42rem;
     min-width: 400px;
     position: absolute;
-    margin: 0;
     justify-content: center;
     text-align: center;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
+
+
 .colourchange {
-    background-color: var(--darkest);
+    background: black;
     padding: 42px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -51,27 +58,13 @@ h1 {
 .colourchange h1 {
     margin-top: 0;
 }
-.tempgrad {
-    margin: 0;
-    background-image: linear-gradient(to right, var(--red) 0%, var(--red) 20%, var(--orange) 20%, var(--orange) 40%, var(--yellow) 40%, var(--yellow) 60%, var(--green) 60%, var(--green) 80%, var(--purple) 80%, var(--purple) 100%);
-    height: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
 
 #search input{
-    background-color: var(--dark);
+    background-image: linear-gradient(to right, white 0%, black 100%);
     border: none;
     width: 90%;
+    height: 30px;
     padding: 5px;
-    border-radius: 5px;
-    color: var(--green);
+    color: black;
     font-family: var(--mainfont);
-}
-
-#clock {
-    font-family: var(--mainfont);
-    color: var(--light);
-    font-size: 42px;
-    padding: 42px;
 }
