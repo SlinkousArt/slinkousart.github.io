@@ -83,6 +83,10 @@ header h1:after {
   content: none;
 }
 
+#pages {
+  justify-content: center;
+}
+
 .btn {
   border-radius: 0;
   border: 1px solid var(--pink2);
