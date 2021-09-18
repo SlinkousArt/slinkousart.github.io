@@ -75,19 +75,6 @@ header h1 {
   margin-left: 0;
 }
 
-@media (prefers-color-scheme: light) {
-  body {
-    color: var(--black);
-    background: var(--light);
-  }
-  header {
-    background: var(--lightish);
-  }
-  header h1 {
-    color: var(--black);
-  }
-}
-
 
 header h1:before {
   content: none;
@@ -130,6 +117,22 @@ a:visited {
 h1, h2, h3, h4, h5 {
   color: var(--white);
   text-shadow: none;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    color: var(--black);
+    background: var(--light);
+  }
+  header {
+    background: var(--lightish);
+  }
+  header h1 {
+    color: var(--black);
+  }
+  h1, h2, h3, h4, h5 {
+    color: var(--black);
+  }
 }
 
 /**@media (prefers-color-scheme: light) {
