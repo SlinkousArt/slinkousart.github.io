@@ -58,12 +58,11 @@
 
 body {
   color: var(--white);
-  background: var(--bgdark);
+  background: var(--dark);
 }
 
-
 header {
-  background: var(--bgdarkish);
+  background: var(--darkish);
   border-bottom: none;
 }
 
@@ -75,6 +74,20 @@ header h1 {
   font-weight: Light;
   margin-left: 0;
 }
+
+@media (prefers-color-scheme: light) {
+  body {
+    color: var(--black);
+    background: var(--light);
+  }
+  header {
+    background: var(--lightish);
+  }
+  header h1 {
+    color: var(--black);
+  }
+}
+
 
 header h1:before {
   content: none;
