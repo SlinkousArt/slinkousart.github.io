@@ -41,14 +41,13 @@
 }
 
 :root {
-  --bgdark: #232529;
-  --bgdarker: #181818;
-  --bgmed: #2E3440; 
+  --bgmain: #282828;
+  
 }
 
 body {
   color: var(--white);
-  background: var(--bgmed);
+  background: var(--black0);
 }
 
 
