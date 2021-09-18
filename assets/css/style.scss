@@ -41,9 +41,13 @@
 }
 
 :root {
-  --bgdark: #232529;
+  --bgdarkold: #232529;
+  --bgdark: #1E2129;
   --bgdarker: #181818;
-  --bgmed: #252933;
+  --bgdarkish: #252933;
+
+  --blue1: #363D4B;
+  --blue2: #515C71;
 
   --green: #8eb495;
   --pink: #b48ead;
@@ -51,7 +55,7 @@
 
 body {
   color: var(--white);
-  background: var(--bgmed);
+  background: var(--bgdarkish);
 }
 
 
