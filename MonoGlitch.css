@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;500;600;700;900&display=swap');
+
+:root {
+    --bgmain: #111111;
+    --txtmain: #bbbbbb;
+    --txtbold: #ffffff;
+
+    --trmain: rgba(0,0,0,0.5);
+    --tralt: rgba(255,255,255,0.5);
+
+    --buttonWidth: 36px;
+}
+
+html {
+    background-color: var(--bgmain);
+    margin: 0;
+    height: 100%;
+    font-family: Hack, 'Source Code Pro', monospace;
+}
+::selection {
+    background: var(--txtmain);
+    opacity: 50%;
+}
+
+body {
+    background-color: var(--txtmain);
+    /* background-image: url('https://slinkous.carrd.co/assets/images/bg.jpg?v=4fe7167b'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    background-color: var(--bgmain);
+    color: var(--txtmain);
+    padding: 48px 64px;
+    margin: auto;
+    text-align: center;
+    /* box-shadow: 5px 5px var(--trmain); */
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+hr {
+    color: var(--txtmain);
+    border-style: solid;
+    border-width: 1px;
+    border-top: none;
+}
+.buttonholder {
+    display: inline-flex;
+}
+
+.button {
+    border-radius: 0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--txtmain);
+    background: var(--bgmain);
+    color: var(--txtmain);
+    width: var(--buttonWidth);
+    height: var(--buttonWidth);
+    display: flex;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.button:hover {
+    color: var(--txtbold);
+    border-color: var(--txtbold);
+    cursor: pointer;
+    /* box-shadow: 2px 2px var(--tralt); */
+}
+
+
+.socials {
+    cursor: default;
+}
+
+.socials .button svg {
+    fill: var(--txtmain);
+}
+
+.socials .button:hover svg {
+    fill: var(--txtbold);
+} 
+
+/* svg {
+    border: 1px solid red;
+} */
